@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Loop:ital@0;1&display=swap');
+
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background: rgb(237, 208, 208);
+    margin: 0.43%;
+
+}
+
+
+
+div.img_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 215px;
+    background-color: rgb(206, 118, 132);
+
+
+}
+
+#frog {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    float: center;
+    margin: auto;
+    width: 130px;
+    height: 130px;
+    top: 80px;
+}
+
+@media screen and (max-width: 1000%) {
+    html {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+nav {
+    margin-top: 200px;
+    background-color: rgb(185, 93, 108);
+    width: 100%;
+    margin-top: 0px;
+
+
+
+
+}
+
+nav a {
+    position: relative;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+
+}
+
+
+nav a:hover {
+    background-color: rgb(189, 100, 115);
+    color: black;
+}
+
+
+nav a.active {
+    background-color: rgb(133, 47, 61);
+    color: rgb(255, 255, 255);
+}
+
+
+nav input[type=text] {
+    float: right;
+    padding: 10px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 300px) {
+
+    nav a,
+    nav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    nav input[type=text] {
+        border: 1px solid rgb(206, 118, 132);
+    }
+}
+
+.dropdown {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 40%;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Now the Agents part */
+
+
+#Agent {
+    overflow: hidden;
+}
+
+#Dualists-Agent {
+    float: left;
+}
+
+#Dualists-Agent {
+    margin-top: 10%;
+}
+
+#Dualists-Agent img {
+    display: block;
+}
+
+#Dualists-Agent {
+    font-size: 20px;
+}
